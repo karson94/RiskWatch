@@ -1,10 +1,6 @@
 import java.util.List;
 import java.util.ArrayList;
-
-@Override
-public void update(String message) {
-    System.out.println(name + " received a notification: " + message);
-}
+//import org.apache.commons.validator.routines.EmailValidator;
 
 public class RiskWatchNotificationSystem {
 
@@ -25,5 +21,10 @@ public class RiskWatchNotificationSystem {
             notifier.update(message);
         }
     }
+    //@Override
+    //public void update(String message) {
+    //    System.out.println(name + " received a notification: " + message);
+    //}
+
 
 }
